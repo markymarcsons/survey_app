@@ -1,0 +1,19 @@
+.info-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* max-width: 1120px; */
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+}
+
+.card {
+    width: 30rem;
+    margin: 20px;
+    align-items: center;
+}
+
+.card card-title{
+    align-items: center;
+}
