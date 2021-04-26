@@ -35,7 +35,7 @@ const Surveyone = ()=>{
 
         // insert amount of questions in condition expression of loop
         // n <= amount of questions
-        for (let n = 1; n <= 7; n++) {
+        for (let n = 1; n <= 25; n++) {
             let question=`question${n}`;
             questions.push(question)
         }

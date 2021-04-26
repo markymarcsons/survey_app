@@ -3,10 +3,7 @@ import SurveyOne from '../surveylogic/surveytypeone';
 
 
 
-
 function SurveyDisplay() { 
-
-
 
 
     return(
