@@ -24,15 +24,17 @@ export const Button = ({
     : SIZES[0];
 
     return(
-        <Link to='/surveydisplay' className='btn '>
-            <button
-                className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-                onClick={onClick}
-                type={type}
-            >
-                {children}
-            </button>
-        </Link>
+            <Link to='/surveydisplay' className='btn btn-survey '>
+
+                <button
+                    className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+                    onClick={onClick}
+                    type={type}
+                >
+                    {children}
+                </button>
+            </Link>
+        
     )
 
 }; 

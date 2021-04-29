@@ -30,7 +30,7 @@ const json = {
            {
             "type": "checkbox",
             "name": "question2",
-            "title": "Which of the following platforms did you use?",
+            "title": "Which of the following platforms have you ever used?",
             "isRequired": true,
             "choices": [
              "Patreon",
@@ -38,16 +38,52 @@ const json = {
              "Kickstarter",
              "GoFundMe",
              "Other",
-             {
-              "value": "None",
-              "text": "None"
-             }
-            ]
+            ],
+            "hasNone": true
+            
            },
+
+           {
+                "type": "radiogroup",
+                "name": "question3",
+                "title": "Age",
+                "isRequired": true,
+                "choices": [
+                        {
+                        "value": "0",
+                        "text": "17 or younger"
+                        },
+                        {
+                        "value": "1",
+                        "text": "18 - 20"
+                        },
+                        {
+                        "value": "2",
+                        "text": "21 - 29 "
+                        },
+                        {
+                        "value": "3",
+                        "text": "30 - 39"
+                        },
+                        {
+                        "value": "4",
+                        "text": "40 - 49"
+                        },
+                        {
+                        "value": "5",
+                        "text": "50 - 59"
+                        },
+                        {
+                        "value": "6",
+                        "text": "60 or older"
+                        }
+                ]
+                },
+        
            {
             "type": "checkbox",
-            "name": "question3",
-            "title": "What kind of content are you interested in?",
+            "name": "question4",
+            "title": "What kind of content (creators) are you interested in?",
             "isRequired": true,
             "choices": [
              {
@@ -67,182 +103,235 @@ const json = {
               "text": "Lifestyle / Trends"
              }
             ]
-           },
-           {
-            "type": "radiogroup",
-            "name": "question4",
-            "title": "Age",
-            "isRequired": true,
-            "choices": [
-             {
-              "value": "24",
-              "text": "24 and younger"
-             },
-             {
-              "value": "35",
-              "text": "25 - 35 "
-             },
-             {
-              "value": "45",
-              "text": "36 - 45"
-             },
-             {
-              "value": "60",
-              "text": "45 - 60"
-             },
-             {
-              "value": "60+",
-              "text": "60 and older"
-             }
-            ]
-           }
-          ]
-         },
-         {
+           },           
+           
+
+        {
+                "type": "rating",
+                "name": "question5",
+                "title": "Income after taxes in USD",
+                "isRequired": true,
+                "rateValues": [
+                        {
+                        "value": 1,
+                        "text": "less than 20k"
+                        },
+                        {
+                        "value": 2,
+                        "text": "20k-35k"
+                        },
+                        {
+                        "value": 3,
+                        "text": "35k-50k"
+                        },
+                        {
+                        "value": 4,
+                        "text": "50k-65k"
+                        },
+                        {
+                        "value": 5,
+                        "text": "65k-80k"
+                        },
+                        {
+                        "value": 6,
+                        "text": "80k-95k"
+                        },
+                        {
+                        "value": 7,
+                        "text": "more than 95k "
+                        }
+                ],
+                "rateMax": 7
+                
+                },
+                {
+                "type": "radiogroup",
+                "name": "question6",
+                "title": "What is the highest level of school you have completed or the highest degree you have received?",
+                "isRequired": true,
+                "choices": [
+                        {
+                        "value": "item1",
+                        "text": "Less than high school degree"
+                        },
+                        {
+                        "value": "item2",
+                        "text": "High school degree or equivalent (e.g., GED)"
+                        },
+                        {
+                        "value": "item3",
+                        "text": "Some college but no degree"
+                        },
+                        {
+                        "value": "item4",
+                        "text": "Bachelor degree"
+                        },
+                        {
+                        "value": "item5",
+                        "text": "Graduate degree"
+                        }
+                ]
+        }
+        ]
+        },
+                      
+         
+        {
           "name": "page2 (quant1)",
           "elements": [
            {
             "type": "rating",
-            "name": "question5",
-            "title": "I would subscribe to creators to receive rewards that i can use to play with",
-            "isRequired": true,
-            "rateMax": 7
-           },
-           {
-            "type": "rating",
-            "name": "question6",
-            "title": "I would subscribe to creators to receive content related rewards",
-            "isRequired": true,
-            "rateMax": 7
-           },
-           {
-            "type": "rating",
             "name": "question7",
-            "title": "I would subscribe to creators to get access to additional content",
+            "title": "I would subscribe to creators to receive rewards that I can use to play with",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question8",
-            "title": "I would subscribe to creators to get a special badge next to my username",
+            "title": "I would subscribe to creators to receive content related rewards",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question9",
-            "title": "I would subscribe to creators to receive acknowledgement from the creator i am supporting ",
+            "title": "I would subscribe to creators to get access to additional content",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question10",
-            "title": "I would subscribe to creators to communicate my relationship to this project on social media sites",
+            "title": "I would subscribe to creators to get a special badge next to my username",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question11",
-            "title": "I would subscribe to creators to back good content and give creators the opportunity to retain control of their projects ",
+            "title": "I would subscribe to creators to receive acknowledgement from the creator I am supporting ",
+            "isRequired": true,
+            "rateMax": 7
+           },
+           {
+            "type": "rating",
+            "name": "question12",
+            "title": "I would subscribe to creators to communicate my relationship to this project on social media sites",
+            "isRequired": true,
+            "rateMax": 7
+           },
+           {
+            "type": "rating",
+            "name": "question13",
+            "title": "I would subscribe to creators to back good content and give creators the opportunity to retain control of their projects",
             "isRequired": true,
             "rateMax": 7
            }
           ],
-          "description": "please rate the following questions on a scale from strongly disagree[1] to strongly agree[7]"
+          "description": "please rate the following questions on a scale from strongly disagree [1] to strongly agree [7]"
          },
          {
           "name": "page3 (quant2)",
           "elements": [
            {
             "type": "rating",
-            "name": "question12",
-            "title": "I would subscribe to creators Because i appreciate the quality of content",
-            "isRequired": true,
-            "rateMax": 7
-           },
-           {
-            "type": "rating",
             "name": "question14",
-            "title": "I would subscribe to content creators for philanthropic reasons",
+            "title": "I would subscribe to creators Because I appreciate the quality of content",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question15",
-            "title": "I would subscribe to creators because i want to help creators with good content, without expecting any compensation ",
+            "title": "I would subscribe to content creators for philanthropic reasons",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question16",
-            "title": "I would subscribe to creators because i deeply enjoy helping creators on subscription based crowdfunding plattforms – even if I have to make sacrifices ",
+            "title": "I would subscribe to creators because I want to help creators with good content, without expecting any compensation ",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question17",
-            "title": "I would subscribe to creators because i enjoy the feeling of belonging to a community of other backers",
+            "title": "I would subscribe to creators because I deeply enjoy helping creators on subscription based crowdfunding plattforms – even if I have to make sacrifices ",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question18",
-            "title": "I would subscribe to creators because i enjoy interacting with the online community of backers and offer my advice about the project",
+            "title": "I would subscribe to creators because I enjoy the feeling of belonging to a community of other backers",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question19",
+            "title": "I would subscribe to creators because I enjoy interacting with the online community of backers and offer my advice about the project",
+            "isRequired": true,
+            "rateMax": 7
+           },
+           {
+            "type": "rating",
+            "name": "question20",
             "title": "I would not subscribe to creators",
             "isRequired": true,
             "rateMax": 7
            }
           ],
-          "description": "please rate the following questions on a scale from strongly disagree[1] to strongly agree[7] "
+          "description": "Please rate the following questions on a scale from strongly disagree [1] to strongly agree [7] "
          },
          {
           "name": "page4 (qual)",
           "elements": [
            {
             "type": "comment",
-            "name": "question20",
+            "name": "question21",
             "title": "How do rewards affect your decision to subscribe to a creator ?"
            },
            {
             "type": "comment",
-            "name": "question21",
+            "name": "question22",
             "title": "How does does acknowledgement of the creator affect your descion to subscribe to a creator ?"
            },
            {
             "type": "comment",
-            "name": "question22",
+            "name": "question23",
             "title": "What reasons would make you stop supporting a creator? "
            },
            {
             "type": "comment",
-            "name": "question23",
+            "name": "question24",
             "title": "In what way does the creator's content affect your decision wether to keep or stop subscribing to a creator ?"
            },
            {
             "type": "comment",
-            "name": "questio24",
-            "title": "in what way does the community affect your decision wether to keep or stop subscribing to a creator ?"
+            "name": "questio25",
+            "title": "In what way does the community affect your decision wether to keep or stop subscribing to a creator ?"
            },
            {
             "type": "comment",
-            "name": "question25",
+            "name": "question26",
             "title": "What reasons make you subscribe to creators on crowdfunding platforms (e.g Patreon) ?"
            }
           ]
+         },
+         {
+          "name": "pre-test",
+          "elements": [
+                  {
+                          "type": "comment",
+                          "name": "question27",
+                          "title": "You made it, the survey is almost over! Please fill out the box below for any suggestions or insightful remarks. " 
+                  }
+          ]
          }
+
         ]
        };
 

@@ -1,20 +1,26 @@
+
 .info-container {
+    /* background: url('/Users/marcpomer/survey-website/public/images/painter.jpg') center center/cover no-repeat; */
     display: flex;
     flex-flow: column;
     align-items: center;
     /* max-width: 1120px; */
     width: 100%;
-    background-color: #fff;
+    background-color: 
+    rgb(255, 188, 188); 
     height: 100%;
 }
 
+
+
 .card {
     width: 30rem;
-    margin: 20px;
+    margin: 40px;
     align-items: center;
+    box-shadow: 20;
 }
 
-.card card-title{
-    align-content: center;
+.card:hover{
+    transform: scale(1.1)
     
 }

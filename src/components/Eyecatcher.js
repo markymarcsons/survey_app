@@ -10,13 +10,7 @@ function Eyecatcher() {
       <h1>Crowdfunding Survey</h1>
       <p>What are you waiting for?</p>
       <div className='Eyecatcher-btns'>
-        {/* <Button
-          className='btns'
-          buttonStyle='btn--primarx'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button> */}
+
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -24,6 +18,14 @@ function Eyecatcher() {
         >
         GET STARTED
         </Button>
+        {/* <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          I NEED MORE INFO!
+        </Button> */}
+
       </div>
     </div>
   );
