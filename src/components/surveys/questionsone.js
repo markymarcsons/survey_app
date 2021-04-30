@@ -229,7 +229,7 @@ const json = {
             "rateMax": 7
            }
           ],
-          "description": "please rate the following questions on a scale from strongly disagree [1] to strongly agree [7]"
+          "description": "Please rate the following questions on a scale from strongly disagree [1] to strongly agree [7]"
          },
          {
           "name": "page3 (quant2)",
