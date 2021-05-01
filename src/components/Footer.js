@@ -7,7 +7,7 @@ function FooterComp() {
         <footer className="Footer">
             <div className="text-center p-3">
             © 2021 Copyright
-                {/* <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a> */}
+               
             </div>
         </footer>
     )
