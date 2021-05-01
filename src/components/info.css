@@ -7,15 +7,17 @@
     /* max-width: 1120px; */
     width: 100%;
     background-color: 
-    rgba(255, 188, 188, 0.7); 
-    height: 100%;
+    rgba(255, 188, 188, 0.95); 
+    height: 85vh;
 }
 
 
 
 .card {
     width: 30rem;
-    margin: 40px;
+    height: 70vh;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
     align-items: center;
     box-shadow: 20;
 }
