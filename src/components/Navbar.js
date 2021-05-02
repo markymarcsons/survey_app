@@ -9,7 +9,7 @@ function Navigation() {
     return(
         <> 
             <Navbar className="navbar" bg="dark" variant="dark">
-                <div className="navbar-container">
+                <div className="navbar-container float left">
                     <Navbar.Brand href="#home">
                     <img
                         alt=""

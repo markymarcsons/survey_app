@@ -12,8 +12,10 @@
   
   .navbar-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    -webkit-justify-content: left;
     align-items: center;
+    -webkit-align-items: center;
     height: 80px;
     max-width: 1500px;
   }
