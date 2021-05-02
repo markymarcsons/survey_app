@@ -7,7 +7,7 @@
     /* max-width: 1120px; */
     width: 100%;
     background-color: 
-    rgba(255, 188, 188, 0.95); 
+    rgb(107, 61, 61); 
     height: 85vh;
 }
 
@@ -22,7 +22,16 @@
     box-shadow: 20;
 }
 
+
 .card:hover{
-    transform: scale(1.1)
+    transform: scale(1.05)
     
+}
+
+@media screen and (max-width: 768px) {
+
+    .card,.card-container{
+        width:fit-content;
+    }
+
 }

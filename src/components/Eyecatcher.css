@@ -53,7 +53,8 @@ video {
     .Eyecatcher-container > h1 {
       font-size: 70px;
       margin-top: -150px;
-      align-content: center;
+      margin-left: 100px;
+      text-align: center;
     }
   }
   
@@ -61,6 +62,8 @@ video {
     .Eyecatcher-container > h1 {
       font-size: 50px;
       margin-top: -100px;
+      text-align: center;
+
     }
   
     .Eyecatcher-container > p {
@@ -78,6 +81,6 @@ video {
       }
   }
 
-
+ 
 
   
