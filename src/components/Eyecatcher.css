@@ -1,9 +1,11 @@
 video {
     object-fit: cover;
-    width: 100%;
-    height: 100%;
     position: fixed;
-    z-index: -1;
+    min-width: 100%;
+    min-height: 75vh;
+    width: auto;
+    height: auto;
+    z-index: -100;
   }
   
   .Eyecatcher-container {
@@ -56,7 +58,6 @@ video {
       margin-left: 100px;
       text-align: center;
     }
-    .avia_playpause_icon { display: none !important; }
   }
   
   @media screen and (max-width: 768px) {
@@ -67,7 +68,6 @@ video {
 
     }
 
-    .avia_playpause_icon { display: none !important; }
   
     .Eyecatcher-container > p {
       font-size: 30px;
