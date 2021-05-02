@@ -19,3 +19,12 @@
     height: 80px;
     max-width: 1500px;
   }
+
+  .navbar, .navbar-container {
+    height: 80px;
+    display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: start
+  }
