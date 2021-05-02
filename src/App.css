@@ -19,7 +19,7 @@
   
 .surveyContainer{
   background-color: rgba(255, 146, 146, 0.3) ;
-  height: 270vh;
+  min-height: 90vh ;
   width: 100%;
   display: flex;
   object-fit: fill;

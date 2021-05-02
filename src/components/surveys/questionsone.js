@@ -11,7 +11,7 @@ const json = {
             "type": "radiogroup",
             "name": "question1",
             "title": "Gender",
-            "isRequired": true,
+            "isRequired": false,
             "choices": [
              {
               "value": "M",
@@ -30,17 +30,17 @@ const json = {
            {
             "type": "checkbox",
             "name": "question2",
-            "title": "Which of the following platforms have you ever used?",
-            "isRequired": true,
+            "title": "Which of the following crowdfunding platforms have you ever used?",
+            "isRequired": false,
+            "hasComment": true,
+            "commentText": "Other (describe)",
             "choices": [
              "Patreon",
              "OnlyFans",
-             "Kickstarter",
-             "GoFundMe",
-             "Other",
+             "Subscribestar",
+             "Steady",
+             "Ko-fi",
             ],
-            "hasNone": true
-            
            },
 
            {
@@ -84,7 +84,9 @@ const json = {
             "type": "checkbox",
             "name": "question4",
             "title": "What kind of content (creators) are you interested in?",
-            "isRequired": true,
+            "isRequired": false,
+            "hasComment": true,
+            "description": "Other (describe)",
             "choices": [
              {
               "value": "edu",
@@ -102,7 +104,7 @@ const json = {
               "value": "life",
               "text": "Lifestyle / Trends"
              }
-            ]
+            ],
            },           
            
 
