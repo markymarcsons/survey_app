@@ -5,6 +5,7 @@
     font-family: 'PT Sans', sans-serif;
   }
 
+/* Surveydisplay styling  */
     
 .surveyText{
   width: 400rem;
@@ -23,4 +24,16 @@
   width: 100%;
   display: flex;
   object-fit: fill;
+  justify-content: center;
 }
+
+span:first-child{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.sv_header{
+  font-size: 18px;
+}
+
