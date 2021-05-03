@@ -11,7 +11,7 @@ const json = {
             "type": "radiogroup",
             "name": "question1",
             "title": "Gender",
-            "isRequired": false,
+            "isRequired": true,
             "choices": [
              {
               "value": "M",
@@ -31,7 +31,7 @@ const json = {
             "type": "checkbox",
             "name": "question2",
             "title": "Which of the following crowdfunding platforms have you ever used?",
-            "isRequired": false,
+            "isRequired": true,
             "hasComment": true,
             "commentText": "Other (describe)",
             "choices": [
@@ -40,6 +40,7 @@ const json = {
              "Subscribestar",
              "Steady",
              "Ko-fi",
+             "I have never used a crwodfunding platform"
             ],
            },
 
@@ -84,7 +85,7 @@ const json = {
             "type": "checkbox",
             "name": "question4",
             "title": "What kind of content (creators) are you interested in?",
-            "isRequired": false,
+            "isRequired": true,
             "hasComment": true,
             "description": "Other (describe)",
             "choices": [
@@ -105,6 +106,7 @@ const json = {
               "text": "Lifestyle / Trends"
              }
             ],
+            "hasNone": true,
            },           
            
 
@@ -180,113 +182,115 @@ const json = {
          
         {
           "name": "page2 (quant1)",
+          "title": "Instruction: Please rate the following statements on a scale from strongly disagree [1] to strongly agree [7]",
           "elements": [
            {
             "type": "rating",
             "name": "question7",
-            "title": "I would subscribe to creators to receive rewards that I can use to play with",
+            "title": "To receive rewards that I can use to play with",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question8",
-            "title": "I would subscribe to creators to receive content related rewards",
+            "title": "To receive content related rewards",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question9",
-            "title": "I would subscribe to creators to get access to additional content",
+            "title": "To get access to additional content",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question10",
-            "title": "I would subscribe to creators to get a special badge next to my username",
+            "title": "To get a special badge next to my username",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question11",
-            "title": "I would subscribe to creators to receive acknowledgement from the creator I am supporting ",
+            "title": "To receive acknowledgement from the creator I am supporting ",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question12",
-            "title": "I would subscribe to creators to communicate my relationship to this project on social media sites",
+            "title": "To communicate my relationship to this project on social media sites",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question13",
-            "title": "I would subscribe to creators to back good content and give creators the opportunity to retain control of their projects",
+            "title": "To back good content and give creators the opportunity to retain control of their projects",
             "isRequired": true,
             "rateMax": 7
            }
           ],
-          "description": "Instruction: Please rate the following questions on a scale from strongly disagree [1] to strongly agree [7]"
+          "description": "I would subscribe to creators..."
          },
          {
           "name": "page3 (quant2)",
+          "title": "Instruction: Please rate the following statements on a scale from strongly disagree [1] to strongly agree [7]",
           "elements": [
            {
             "type": "rating",
             "name": "question14",
-            "title": "I would subscribe to creators Because I appreciate the quality of content",
+            "title": "Because I appreciate the quality of the content",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question15",
-            "title": "I would subscribe to content creators for philanthropic reasons",
+            "title": "For philanthropic reasons",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question16",
-            "title": "I would subscribe to creators because I want to help creators with good content, without expecting any compensation ",
+            "title": "Because I want to help creators with good content, without expecting any compensation ",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question17",
-            "title": "I would subscribe to creators because I deeply enjoy helping creators on subscription based crowdfunding plattforms – even if I have to make sacrifices ",
+            "title": "Because I deeply enjoy helping creators on subscription based crowdfunding plattforms – even if I have to make sacrifices ",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question18",
-            "title": "I would subscribe to creators because I enjoy the feeling of belonging to a community of other backers",
+            "title": "Because I enjoy the feeling of belonging to a community of other backers",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question19",
-            "title": "I would subscribe to creators because I enjoy interacting with the online community of backers and offer my advice about the project",
+            "title": "Because I enjoy interacting with the online community of backers and offer my advice about the project",
             "isRequired": true,
             "rateMax": 7
            },
            {
             "type": "rating",
             "name": "question20",
-            "title": "I would not subscribe to creators",
+            "title": "I would never subscribe to creators",
             "isRequired": true,
             "rateMax": 7
            }
           ],
-          "description": "Instruction: Please rate the following questions on a scale from strongly disagree [1] to strongly agree [7]"
+          "description": "I would subscribe to creators..."
          },
          {
           "name": "page4 (qual)",
@@ -299,12 +303,12 @@ const json = {
            {
             "type": "comment",
             "name": "question22",
-            "title": "How does does acknowledgement of the creator affect your descion to subscribe to a creator ?"
+            "title": "How does acknowledgement of the creator affect your descion to subscribe to a creator ?"
            },
            {
-            "type": "comment",
-            "name": "question23",
-            "title": "What reasons would make you stop supporting a creator? "
+                "type": "comment",
+                "name": "question23",
+                "title": "What reasons make you subscribe to creators on crowdfunding platforms (e.g Patreon) ?"
            },
            {
             "type": "comment",
@@ -319,7 +323,7 @@ const json = {
            {
             "type": "comment",
             "name": "question26",
-            "title": "What reasons make you subscribe to creators on crowdfunding platforms (e.g Patreon) ?"
+            "title": "What reasons would make you stop supporting a creator? "
            }
           ]
          },

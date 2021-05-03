@@ -29,11 +29,17 @@
 
 span:first-child{
   font-size: 14px;
-  font-weight: bold;
+  font-style: italic;
   margin-bottom: 2px;
 }
 
-.sv_header{
-  font-size: 18px;
+.sv_main span {
+  word-break: break-word;
+  font-style: inherit;
+  font-weight: 550;
+}
+
+.sv_header__text > span{
+  font-size: 18px!important;
 }
 
