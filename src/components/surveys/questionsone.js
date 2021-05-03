@@ -231,7 +231,7 @@ const json = {
             "rateMax": 7
            }
           ],
-          "description": "Please rate the following questions on a scale from strongly disagree [1] to strongly agree [7]"
+          "description": "Instruction: Please rate the following questions on a scale from strongly disagree [1] to strongly agree [7]"
          },
          {
           "name": "page3 (quant2)",
@@ -286,7 +286,7 @@ const json = {
             "rateMax": 7
            }
           ],
-          "description": "Please rate the following questions on a scale from strongly disagree [1] to strongly agree [7] "
+          "description": "Instruction: Please rate the following questions on a scale from strongly disagree [1] to strongly agree [7]"
          },
          {
           "name": "page4 (qual)",
@@ -329,7 +329,7 @@ const json = {
                   {
                           "type": "comment",
                           "name": "question27",
-                          "title": "You made it, the survey is almost over! Please fill out the box below for any suggestions or insightful remarks. " 
+                          "title": "You made it, the survey is almost over! Please fill out the box below for any suggestions or insightful remarks e.g.: Could you understand all the quesitions? Do you think the order of the questions were locigal? Anything else that can be improved?  " 
                   }
           ]
          }
