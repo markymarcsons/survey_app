@@ -1,4 +1,8 @@
 
+p {
+    font-size: 20px
+}
+
 .info-container {
     /* background: url('/Users/marcpomer/survey-website/public/images/painter.jpg') center center/cover no-repeat; */
     display: flex;
@@ -32,6 +36,10 @@
     .card,.card-container{
         width:fit-content;
         transform: none;
+    }
+
+    p {
+        font-size: 14px
     }
 
 }
