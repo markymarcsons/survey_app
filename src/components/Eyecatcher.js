@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 import { Button } from './Buttons';
 import './Eyecatcher.css'
@@ -10,22 +11,25 @@ function Eyecatcher() {
       <h1>Crowdfunding Survey</h1>
       <p>What are you waiting for?</p>
       <div className='Eyecatcher-btns'>
-
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-        GET STARTED
-        </Button>
-        {/* <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          I NEED MORE INFO!
-        </Button> */}
-
+        <Link to='/surveydisplay' ClassName='btn'>
+          <Button
+            className='btns'
+            buttonStyle='btn--outline'
+            buttonSize='btn--large'
+          >
+          GET STARTED
+          </Button>
+        </Link>
+        < Link to='/mockdisplay' ClassName='btn'>
+          <Button
+            className='btns'
+            buttonStyle='btn--primary'
+            buttonSize='btn--large'
+            onClick={console.log('hey')}
+          >
+            Go to ptototype!
+          </Button>
+        </Link>
       </div>
     </div>
   );

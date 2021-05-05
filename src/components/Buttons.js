@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
-import {Link} from 'react-router-dom';
-// import {Button} from 'survey-react';
+// import {Link} from 'react-router-dom';
+
 
 
 const STYLES = ['btn--outline', 'btn--primary'];
@@ -24,7 +24,7 @@ export const Button = ({
     : SIZES[0];
 
     return(
-            <Link to='/surveydisplay' className='btn'>
+           
 
                 <button
                     className={`btn ${checkButtonStyle} ${checkButtonSize}`}
@@ -33,7 +33,7 @@ export const Button = ({
                 >
                     {children}
                 </button>
-            </Link>
+
         
     )
 
