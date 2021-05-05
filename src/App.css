@@ -28,16 +28,7 @@
 }
 
 
-/* 
-span:first-child{
-  font-size: 14px;
-  font-style: italic;
-  margin-bottom: 2px;
+.sv_main.sv_default_css .sv_container {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
 }
-
-
-
-.sv_header__text > span{
-  font-size: 18px!important;
-}
- */

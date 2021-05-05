@@ -183,7 +183,6 @@ const json = {
         {
           "name": "page2 (quant1)",
           "title": "Instruction: Please rate the following statements on a scale from strongly disagree [1] to strongly agree [7]",
-          "requiredText": "I would subscribe to creators...",
           "elements": [
            {
             "type": "rating",
@@ -254,6 +253,7 @@ const json = {
          {
           "name": "page3 (quant2)",
           "title": "Instruction: Please rate the following statements on a scale from strongly disagree [1] to strongly agree [7]",
+          "requiredText": "I would subscribe to creators...",
           "elements": [
            {
             "type": "rating",
@@ -318,7 +318,8 @@ const json = {
             "minRateDescription": "(strongly disagree)",
             "maxRateDescription": "(strongly agree)"
            }
-          ]
+          ],
+          "description": "I would subscribe to creators..."
          },
          {
           "name": "page4 (qual)",
