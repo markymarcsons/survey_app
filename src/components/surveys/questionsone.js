@@ -40,7 +40,7 @@ const json = {
              "Subscribestar",
              "Steady",
              "Ko-fi",
-             "I have never used a crwodfunding platform"
+             "I have never used a crowdfunding platform"
             ],
            },
 
@@ -51,31 +51,31 @@ const json = {
                 "isRequired": true,
                 "choices": [
                         {
-                        "value": "0",
+                        "value": 0,
                         "text": "17 or younger"
                         },
                         {
-                        "value": "1",
+                        "value": 1,
                         "text": "18 - 20"
                         },
                         {
-                        "value": "2",
+                        "value": 2,
                         "text": "21 - 29 "
                         },
                         {
-                        "value": "3",
+                        "value": 3,
                         "text": "30 - 39"
                         },
                         {
-                        "value": "4",
+                        "value": 4,
                         "text": "40 - 49"
                         },
                         {
-                        "value": "5",
+                        "value": 5,
                         "text": "50 - 59"
                         },
                         {
-                        "value": "6",
+                        "value": 6,
                         "text": "60 or older"
                         }
                 ]
@@ -87,7 +87,7 @@ const json = {
             "title": "What kind of content (creators) are you interested in?",
             "isRequired": true,
             "hasComment": true,
-            "description": "Other (describe)",
+        //     "description": "Other (describe)",
             "choices": [
              {
               "value": "edu",
@@ -155,23 +155,23 @@ const json = {
                 "isRequired": true,
                 "choices": [
                         {
-                        "value": "item1",
+                        "value": 1,
                         "text": "Less than high school degree"
                         },
                         {
-                        "value": "item2",
+                        "value": 2,
                         "text": "High school degree or equivalent (e.g., GED)"
                         },
                         {
-                        "value": "item3",
+                        "value": 3,
                         "text": "Some college but no degree"
                         },
                         {
-                        "value": "item4",
+                        "value": 4,
                         "text": "Bachelor degree"
                         },
                         {
-                        "value": "item5",
+                        "value": 5,
                         "text": "Graduate degree"
                         }
                 ]
@@ -183,55 +183,70 @@ const json = {
         {
           "name": "page2 (quant1)",
           "title": "Instruction: Please rate the following statements on a scale from strongly disagree [1] to strongly agree [7]",
+          "requiredText": "I would subscribe to creators...",
           "elements": [
            {
             "type": "rating",
             "name": "question7",
             "title": "To receive rewards that I can use to play with",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question8",
             "title": "To receive content related rewards",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question9",
             "title": "To get access to additional content",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question10",
             "title": "To get a special badge next to my username",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question11",
             "title": "To receive acknowledgement from the creator I am supporting ",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question12",
             "title": "To communicate my relationship to this project on social media sites",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question13",
             "title": "To back good content and give creators the opportunity to retain control of their projects",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            }
           ],
           "description": "I would subscribe to creators..."
@@ -245,52 +260,65 @@ const json = {
             "name": "question14",
             "title": "Because I appreciate the quality of the content",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question15",
             "title": "For philanthropic reasons",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question16",
             "title": "Because I want to help creators with good content, without expecting any compensation ",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question17",
             "title": "Because I deeply enjoy helping creators on subscription based crowdfunding plattforms – even if I have to make sacrifices ",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question18",
             "title": "Because I enjoy the feeling of belonging to a community of other backers",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question19",
             "title": "Because I enjoy interacting with the online community of backers and offer my advice about the project",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            },
            {
             "type": "rating",
             "name": "question20",
             "title": "I would never subscribe to creators",
             "isRequired": true,
-            "rateMax": 7
+            "rateMax": 7,
+            "minRateDescription": "(strongly disagree)",
+            "maxRateDescription": "(strongly agree)"
            }
-          ],
-          "description": "I would subscribe to creators..."
+          ]
          },
          {
           "name": "page4 (qual)",
@@ -298,31 +326,37 @@ const json = {
            {
             "type": "comment",
             "name": "question21",
+            "isRequired": true,
             "title": "How do rewards affect your decision to subscribe to a creator ?"
            },
            {
             "type": "comment",
             "name": "question22",
-            "title": "How does acknowledgement of the creator affect your descion to subscribe to a creator ?"
+            "isRequired": true,
+            "title": "How does acknowledgement of the creator affect your decision to subscribe to a creator?"
            },
            {
                 "type": "comment",
                 "name": "question23",
+                "isRequired": true,
                 "title": "What reasons make you subscribe to creators on crowdfunding platforms (e.g Patreon) ?"
            },
            {
             "type": "comment",
             "name": "question24",
-            "title": "In what way does the creator's content affect your decision wether to keep or stop subscribing to a creator ?"
+            "isRequired": true,
+            "title": "In what way does the creator's content affect your decision whether to keep or stop subscribing to a creator ?"
            },
            {
             "type": "comment",
             "name": "questio25",
-            "title": "In what way does the community affect your decision wether to keep or stop subscribing to a creator ?"
+            "isRequired": true,
+            "title": "In what way does the community affect your decision whether to keep or stop subscribing to a creator ?"
            },
            {
             "type": "comment",
             "name": "question26",
+            "isRequired": true,
             "title": "What reasons would make you stop supporting a creator? "
            }
           ]
@@ -333,7 +367,7 @@ const json = {
                   {
                           "type": "comment",
                           "name": "question27",
-                          "title": "You made it, the survey is almost over! Please fill out the box below for any suggestions or insightful remarks e.g.: Could you understand all the quesitions? Do you think the order of the questions were locigal? Anything else that can be improved?  " 
+                          "title": "You made it, the survey is almost over! Please fill out the box below for any suggestions or insightful remarks e.g.: Could you understand all the quesitions? Do you think the order of the questions were logical? Anything else that can be improved?  " 
                   }
           ]
          }

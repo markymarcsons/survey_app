@@ -27,19 +27,17 @@
   justify-content: center;
 }
 
+
+/* 
 span:first-child{
   font-size: 14px;
   font-style: italic;
   margin-bottom: 2px;
 }
 
-.sv_main span {
-  word-break: break-word;
-  font-style: inherit;
-  font-weight: 550;
-}
+
 
 .sv_header__text > span{
   font-size: 18px!important;
 }
-
+ */
