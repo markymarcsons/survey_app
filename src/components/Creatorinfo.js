@@ -10,12 +10,12 @@ function Creatorinfo() {
                     <Card.Title className="text-center"><h1>Guiseppe from Brooklyn</h1></Card.Title>
                     <Card.Text>
                         <p>
-                            This mock profile belongs to Guiseppe. He is an New york based artit and has been painting for over 40 years. 
-                            Together with his nephew Micky he sat up an Crowd account in order to keep producing art. 
-                            Become a part of this wonderful community of aspriring artist and art enthusiasts and recieve a variaty of rewards.
+                            This mock profile belongs to Guiseppe. He is an New york based artist and has been painting for over 40 years. 
+                            With the help of his nephew Micky he sat up an Crowd.ml account in order pay keep doing what he loves most. 
+                            Become a part of this wonderful community of aspiring artists and art enthusiasts.
                         </p><br/>
                         <p>
-                            You can become a subscriber of Guiseppe starting at only 1$ a month.
+                            You can become a subscriber and recieve a variety of rewards starting at only 10$ a month.
                         </p>
 
                     </Card.Text>

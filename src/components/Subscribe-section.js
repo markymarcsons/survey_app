@@ -7,14 +7,13 @@ import Slider from './Slider.js'
 function Subscribe() {
     return(
         <div className="Subscribe-container">
-            <p>monthly donation</p>
-            <Slider />
-
+            <div className="Slider-container">
+                <p>monthly donation</p>
+                <Slider />
+            </div>  
         </div>
 
-    );
-};
+    )
+    };
 
 export default Subscribe;
-
-

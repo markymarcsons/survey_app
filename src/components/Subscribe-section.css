@@ -5,11 +5,26 @@
     /* max-width: 1120px; */
     width: 100%;
     background-color: 
-    #866c6c; 
+    #6b3d3d; 
     height: fit-content;
 }
 
-.Subscribe-container > p {
+
+
+.Slider-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.range-slider__wrap{
+    width: 300%;
+}
+
+.Subscribe-container p {
     color: #fff;
 
 }
+

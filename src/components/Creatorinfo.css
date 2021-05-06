@@ -17,8 +17,8 @@ p {
 .Creatorinfo-container .card{
     width: 30rem;
     height: 70vh;
-    margin-top: 7rem;
-    margin-bottom: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     align-items: center;
     box-shadow: 20;
 }
