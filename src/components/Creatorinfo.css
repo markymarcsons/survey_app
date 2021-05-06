@@ -1,6 +1,8 @@
+p {
+    font-size: 20px
+}
 
-
-.info-container {
+.Creatorinfo-container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -11,30 +13,21 @@
     height: fit-content;
 }
 
-.info-container p {
-    font-size: 20px
-}
 
-.info-container .card {
+.Creatorinfo-container .card{
     width: 30rem;
     height: 70vh;
-    margin-top: 1rem;
+    margin-top: 7rem;
     margin-bottom: 7rem;
     align-items: center;
     box-shadow: 20;
 }
 
-.Card.Creator-info.card {
-    margin: 30px;
-}
-
-
-.info-container .card:hover{
+/* 
+.card:hover{
     transform: scale(1.1)
     
-}
-
-
+} */
 
 @media screen and (max-width: 768px) {
 

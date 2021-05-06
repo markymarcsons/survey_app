@@ -25,9 +25,9 @@ function Eyecatcher() {
             className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
-            onClick={console.log('hey')}
+            // onClick={console.log('hey')}
           >
-            Go to ptototype!
+            GO TO PROTOTYPE!
           </Button>
         </Link>
       </div>

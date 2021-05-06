@@ -1,6 +1,6 @@
-:root {
+/* :root {
   --primary: #fff;
-}
+} */
 
 .btn {
   padding: 8px 20px;
@@ -12,9 +12,9 @@
 }
 
 .btn--primary {
-  background-color: var(--primary);
-  color: rgb(0, 0, 0);
-  border: 1px solid var(--primary);
+  background-color: #6b3d3d;
+  color:#fff;
+  border: 1px solid #fff;
 }
 
 .btn--outline {

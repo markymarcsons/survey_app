@@ -46,6 +46,16 @@ video {
     border-color: #fff;
 
   }
+    
+  .Eyecatcher-btns .btn--primary {
+    margin: 4px;
+    background-color: #6b3d3d;
+    color: #fff;
+    border-color: #fff;
+
+  }
+
+
 
   .fa-play-circle {
     margin-left: 4px;

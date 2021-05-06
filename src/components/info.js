@@ -4,7 +4,7 @@ import {Card} from 'react-bootstrap';
 function Infobox() {
     return(
         <div className="info-container">
-            <Card className="Card">
+            <Card className="Card info-card">
                 <Card.Body ClassName="Card Card-Body">
                     <Card.Title className="text-center"><h1>Information</h1></Card.Title>
                     <Card.Text><p>
