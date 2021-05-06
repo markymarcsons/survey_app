@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Home from './components/pages/home';
+import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navigation from './components/Navbar.js'
 import SurveyOne from './components/surveylogic/surveytypeone';

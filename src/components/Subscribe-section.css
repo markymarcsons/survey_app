@@ -1,0 +1,15 @@
+.Subscribe-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* max-width: 1120px; */
+    width: 100%;
+    background-color: 
+    #866c6c; 
+    height: fit-content;
+}
+
+.Subscribe-container > p {
+    color: #fff;
+
+}

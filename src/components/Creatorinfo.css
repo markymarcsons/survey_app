@@ -31,7 +31,7 @@ p {
 
 @media screen and (max-width: 768px) {
 
-    .card,.card-container{
+    .Creatorinfo-container .card{
         width:fit-content;
         transform: none;
     }
