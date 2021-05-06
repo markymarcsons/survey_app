@@ -20,7 +20,7 @@ function Eyecatcher() {
           GET STARTED
           </Button>
         </Link>
-        < Link to='/mockdisplay' ClassName='btn'>
+        < Link to='/mockdisplay' ClassName='btn-mobile'>
           <Button
             className='btns'
             buttonStyle='btn--primary'

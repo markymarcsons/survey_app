@@ -55,6 +55,14 @@ video {
 
   }
 
+  .Eyecatcher-btns .btn--primary:hover {
+    margin: 4px;
+    background-color: #fff;
+    color: #6b3d3d;
+    border-color: #6b3d3d;
+
+  }
+
 
 
   .fa-play-circle {
