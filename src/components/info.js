@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './info.css';
 import {Card} from 'react-bootstrap';
 function Infobox() {
