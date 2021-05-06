@@ -15,7 +15,7 @@ function Creatorinfo() {
                             Become a part of this wonderful community of aspiring artists and art enthusiasts.
                         </p><br/>
                         <p>
-                            Starting at only 10$ a month you can become a subscriber and recieve a variety of rewards .
+                            Starting at only 10$ a month you can become a subscriber and receive a variety of rewards .
                         </p>
 
                     </Card.Text>

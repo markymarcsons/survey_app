@@ -4,7 +4,7 @@ import './Button.css';
 
 
 
-const STYLES = ['btn--outline', 'btn--primary'];
+const STYLES = ['btn--outline', 'btn--primary', 'btn--secondary' ];
 const SIZES = ['btn--medium', 'btn--large'];
 
 
