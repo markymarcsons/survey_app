@@ -40,8 +40,23 @@
     width: 200%;
 }
 
-.Subscribe-container p {
+/* .Subscribe-container p {
     color: #050101c0;
 
-}
+} */
 
+@media screen and (max-width: 768px) {
+
+    .Subscribe-container, .Slider-container{
+        width:fit-content;
+        transform: none;
+    }
+    .range-slider__wrap{
+        width: 100%;
+    }
+ 
+    p {
+        font-size: 16px
+    } 
+
+}

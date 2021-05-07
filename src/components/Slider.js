@@ -39,7 +39,7 @@ const Slider = () => {
         <>
           <li>Platinum Username Badge</li>
           <li>Painted T-Shirt</li>
-          <li>1-on-1 painting session</li>
+          <li>1-on-1 Painting Session</li>
         </>
         )
 
@@ -56,7 +56,7 @@ const Slider = () => {
           onAfterChange={e => setFinalValue(e.target.value)}/>
           <div className='sliderValues-container'>
             <p>Subscription Fee: {finalValue}$</p>
-            <p>Receiving Rewards:</p>
+            <p>Rewards:</p>
             <Rewards />
           </div>
           
