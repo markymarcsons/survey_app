@@ -350,7 +350,7 @@ const json = {
            },
            {
             "type": "comment",
-            "name": "questio25",
+            "name": "question25",
             "isRequired": true,
             "title": "In what way does the community affect your decision whether to keep or stop subscribing to a creator ?"
            },
