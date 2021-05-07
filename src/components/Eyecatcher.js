@@ -27,7 +27,7 @@ function Eyecatcher() {
             buttonSize='btn--large'
             // onClick={console.log('hey')}
           >
-            MOCK PROFILE
+            Try Out Mock Platform
           </Button>
         </Link>
       </div>

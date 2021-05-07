@@ -2,7 +2,7 @@
 const json = {
 
 
-        "title": "Survey",
+        "title": "Subscription Based Crowdfunding Survey --- Page {pageno} of {pagecount}",
         "pages": [
          {
           "name": "page1",
@@ -368,7 +368,7 @@ const json = {
                   {
                           "type": "comment",
                           "name": "question27",
-                          "title": "You made it, the survey is almost over! Please fill out the box below for any suggestions or insightful remarks e.g.: Could you understand all the quesitions? Do you think the order of the questions were logical? Anything else that can be improved?  " 
+                          "title": "You made it, the survey is almost over! Please fill out the box below for any suggestions or insightful remarks e.g.: Could you understand all the quesitions? Do you think the order of the questions is logical? Anything else that can be improved?  " 
                   }
           ]
          }

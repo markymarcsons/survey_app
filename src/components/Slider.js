@@ -14,13 +14,13 @@ const Slider = () => {
 
     const Rewards = () => {
   
-      if(finalValue <= 10) {
+      if(finalValue <= 5) {
         return(
         <>
-          <li>bronze badge</li>
+          <li>Bronze Username Badge</li>
         </>)
       }
-      if(finalValue > 10 && finalValue <=20){
+      if(finalValue > 5 && finalValue <=20){
         return(
         <>
           <li>Silver Username Badge</li>
@@ -38,7 +38,7 @@ const Slider = () => {
         return (
         <>
           <li>Platinum Username Badge</li>
-          <li>Painted T-Shirt</li>
+          <li>Painted Canvas</li>
           <li>1-on-1 Painting Session</li>
         </>
         )

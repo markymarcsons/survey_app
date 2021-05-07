@@ -1,7 +1,7 @@
     .Banner-container {
         background: url('../images/painter.jpg') center center/cover no-repeat; 
         margin: 400;
-        height: 35vh;
+        height: 45vh;
         width: 100%;
         display: flex;
         flex-direction: column;
