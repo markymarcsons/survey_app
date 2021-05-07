@@ -1,0 +1,15 @@
+.sliderValues-container{
+    display: block;
+    min-height: 30vh;
+    margin-top: 50px;
+    margin-left: 69px;
+    margin-right: 69px;
+    margin-bottom: 3rem;
+    height: fit-content;
+    margin-bottom: 2rem;
+}
+
+
+/* .rewards{
+    justify-content:center ;
+} */

@@ -1,28 +1,52 @@
 import React, { useState } from 'react';
 import RangeSlider from 'react-bootstrap-range-slider';
+import './Slider.css';
 
 
 
 const Slider = () => {
 
+  
     const [ value, setValue ] = useState(50);
     const [ finalValue, setFinalValue ] = useState(null);
+    
+
 
     const Rewards = () => {
+  
       if(finalValue <= 10) {
-        let reward = 'bronze badge';
-        return reward
+        return(
+        <>
+          <li>bronze badge</li>
+        </>)
       }
-      if(finalValue > 10 && finalValue <=50){
-        let reward = 'silver badge';
-        return reward
+      if(finalValue > 10 && finalValue <=20){
+        return(
+        <>
+          <li>Silver Username Badge</li>
+          <li>Painted Mug</li>
+        </>) 
+      }
+      if(finalValue > 20 && finalValue <=50){
+        return(
+        <>
+          <li>Golden Username Badge</li>
+          <li>Painted T-shirt</li>
+        </>) 
       }
       else {
-        let reward = 'golden badge';
-        return reward
+        return (
+        <>
+          <li>Platinum Username Badge</li>
+          <li>Painted T-Shirt</li>
+          <li>1-on-1 painting session</li>
+        </>
+        )
+
       };
     };
 
+    
 
     return(
       <>
@@ -30,8 +54,12 @@ const Slider = () => {
           value={value}
           onChange={e => setValue(e.target.value)}
           onAfterChange={e => setFinalValue(e.target.value)}/>
-          <div>Subscription Fee: {finalValue}$</div>
-          <div>Receiving Rewards: {Rewards}</div>
+          <div className='sliderValues-container'>
+            <p>Subscription Fee: {finalValue}$</p>
+            <p>Receiving Rewards:</p>
+            <Rewards />
+          </div>
+          
       </>
     );
   };
