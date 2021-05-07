@@ -51,6 +51,8 @@ const Slider = () => {
     return(
       <>
         <RangeSlider
+          min={1}
+          max={100}
           value={value}
           onChange={e => setValue(e.target.value)}
           onAfterChange={e => setFinalValue(e.target.value)}/>
