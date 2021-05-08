@@ -346,13 +346,13 @@ const json = {
             "type": "comment",
             "name": "question24",
             "isRequired": true,
-            "title": "In what way does the creator's content affect your decision whether to keep or stop subscribing to a creator ?"
+            "title": "In what ways does the creator's content affect your decision whether to keep or stop subscribing to a creator ?"
            },
            {
             "type": "comment",
             "name": "question25",
             "isRequired": true,
-            "title": "In what way does the community affect your decision whether to keep or stop subscribing to a creator ?"
+            "title": "In what ways does the community affect your decision whether to keep or stop subscribing to a creator ?"
            },
            {
             "type": "comment",
