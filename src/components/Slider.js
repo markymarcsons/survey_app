@@ -69,7 +69,7 @@ const Slider = () => {
           />
 
           <div className='sliderValues-container'>
-            <p>Monthly Subscription Fee: {finalValue}$</p>
+            <p>Subscription Fee: {finalValue}$ a month</p>
             <p>Rewards:</p>
             <Rewards />
           </div>
