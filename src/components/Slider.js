@@ -64,6 +64,8 @@ const Slider = () => {
           min={1}
           max={50}
           value={value}
+          tooltip={'auto'}
+          tooltipLabel={() => 'Choose your amount'}
           onChange={e => setValue(e.target.value)}
           onAfterChange={e => setFinalValue(e.target.value)}
           />
