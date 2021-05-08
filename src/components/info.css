@@ -1,6 +1,4 @@
-p {
-    font-size: 20px
-}
+
 
 .info-container {
     display: flex;
@@ -11,6 +9,10 @@ p {
     background-color: 
     #6b3d3d; 
     height: fit-content;
+}
+
+.info-container p {
+    font-size: 20px
 }
 
 .info-container .card {
