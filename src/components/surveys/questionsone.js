@@ -362,16 +362,16 @@ const json = {
            }
           ]
          },
-         {
-          "name": "pre-test",
-          "elements": [
-                  {
-                          "type": "comment",
-                          "name": "question27",
-                          "title": "You made it, the survey is almost over! Please fill out the box below for any suggestions or insightful remarks e.g.: Could you understand all the quesitions? Do you think the order of the questions is logical? Anything else that can be improved?  " 
-                  }
-          ]
-         }
+        //  {
+        //   "name": "pre-test",
+        //   "elements": [
+        //           {
+        //                   "type": "comment",
+        //                   "name": "question27",
+        //                   "title": "You made it, the survey is almost over! Please fill out the box below for any suggestions or insightful remarks e.g.: Could you understand all the quesitions? Do you think the order of the questions is logical? Anything else that can be improved?  " 
+        //           }
+        //   ]
+        //  }
 
         ]
        };
