@@ -11,7 +11,7 @@ function Subscribe() {
     return(
         <div className="Subscribe-container">
             <div className="Slider-container">
-                <p>Mock Subscription (monthly) </p>
+                <p>Choose Subscription Amount</p>
                 <Slider />
                 {/* insert subscribe Button from material ui */}
 
