@@ -14,15 +14,15 @@ const json = {
             "isRequired": true,
             "choices": [
              {
-              "value": "M",
+              "value": 0,
               "text": "Male "
              },
              {
-              "value": "F",
+              "value": 1,
               "text": "Female"
              },
              {
-              "value": "O",
+              "value": 2,
               "text": "Other"
              }
             ]
