@@ -32,7 +32,6 @@ const json = {
             "name": "question2",
             "title": "Which of the following crowdfunding platforms have you ever used?",
             "isRequired": true,
-            "hasComment": true,
             "choices": [
              "Patreon",
              "OnlyFans",
