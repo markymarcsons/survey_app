@@ -37,6 +37,7 @@ const json = {
              "OnlyFans",
              "Subscribestar",
              "Steady",
+             "Ko-fi",
              "Other",
              "I have never used a crowdfunding platform"
             ],
@@ -84,8 +85,7 @@ const json = {
             "name": "question4",
             "title": "What kind of content (creators) are you interested in?",
             "isRequired": true,
-            "hasComment": true,
-        //     "description": "Other (describe)",
+            "hasNone": true,
             "choices": [
              {
               "value": "edu",
@@ -102,9 +102,14 @@ const json = {
              {
               "value": "life",
               "text": "Lifestyle / Trends"
-             }
+             },
+             {
+                "value": "Other",
+                "text": "Other Content"
+               }
+
             ],
-            "hasNone": true,
+            
            },           
            
 
