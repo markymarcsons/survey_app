@@ -1,5 +1,5 @@
 
-# this  three-page application is build for the purpose to conduct a survey for my bachelor thesis
+# this  three-page application is build for the purpose of conducting a survey for my bachelor thesis
 
 # the main technologies that are beeing used are Javascript/react and survey.js 
 
