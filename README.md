@@ -8,23 +8,4 @@
 #######
 
 # directory-tree
-├── App.css
-├── App.js
-├── components
-│   ├── Banner.css
-│   ├── Banner.js
-│   ├── Button.css
-│   ├── Buttons.js
-│   ├── …
-│   ├── pages
-│   │   ├── Home.js
-│   │   ├── mockdisplay.js
-│   │   └── surveydisplay.js
-│   ├── surveylogic
-│   │   └── surveytypeone.js
-│   └── surveys
-│       └── questionsone.js
-├── images
-│   └── painter.jpg
-└── index.js
-
+![image](https://user-images.githubusercontent.com/72924221/121056423-78d6f880-c7be-11eb-9d1a-e0dae18aa7b9.png)
