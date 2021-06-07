@@ -7,5 +7,5 @@
 
 ======================================================================================
 
-# directory-tree
+# directory tree
 ![image](https://user-images.githubusercontent.com/72924221/121056423-78d6f880-c7be-11eb-9d1a-e0dae18aa7b9.png)
