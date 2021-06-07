@@ -8,36 +8,23 @@
 #######
 
 # directory-tree
-src
- ┣ components
- ┃ ┣ pages
- ┃ ┃ ┣ Home.js
- ┃ ┃ ┣ mockdisplay.js
- ┃ ┃ ┗ surveydisplay.js
- ┃ ┣ surveylogic
- ┃ ┃ ┗ surveytypeone.js
- ┃ ┣ surveys
- ┃ ┃ ┗ questionsone.js
- ┃ ┣ Banner.css
- ┃ ┣ Banner.js
- ┃ ┣ Button.css
- ┃ ┣ Buttons.js
- ┃ ┣ Creatorinfo.css
- ┃ ┣ Creatorinfo.js
- ┃ ┣ Eyecatcher.css
- ┃ ┣ Eyecatcher.js
- ┃ ┣ Footer.css
- ┃ ┣ Footer.js
- ┃ ┣ Navbar.css
- ┃ ┣ Navbar.js
- ┃ ┣ Slider.css
- ┃ ┣ Slider.js
- ┃ ┣ Subscribe-section.css
- ┃ ┣ Subscribe-section.js
- ┃ ┣ info.css
- ┃ ┗ info.js
- ┣ images
- ┃ ┗ painter.jpg
- ┣ App.css
- ┣ App.js
- ┗ index.js
+├── App.css
+├── App.js
+├── components
+│   ├── Banner.css
+│   ├── Banner.js
+│   ├── Button.css
+│   ├── Buttons.js
+│   ├── …
+│   ├── pages
+│   │   ├── Home.js
+│   │   ├── mockdisplay.js
+│   │   └── surveydisplay.js
+│   ├── surveylogic
+│   │   └── surveytypeone.js
+│   └── surveys
+│       └── questionsone.js
+├── images
+│   └── painter.jpg
+└── index.js
+
